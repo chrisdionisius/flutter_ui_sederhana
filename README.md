@@ -1,8 +1,14 @@
 # layout_widget
 
-A new Flutter project.
+Project UI Flutter sederhana
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XHECZDy_ctg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Dionisius D. Yapenrui
+1931710111
+MI-2B
+
+## Screenshoot Project
+
+![alt text](Images/Project.gif)
 
 ## Getting Started
 
