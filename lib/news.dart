@@ -5,7 +5,7 @@ class news extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
-        children: [
+        children: <Widget>[
           Container(
             decoration: BoxDecoration(border: Border.all()),
             margin: EdgeInsets.only(top: 10),
@@ -29,6 +29,19 @@ class news extends StatelessWidget {
               ],
             ),
           ),
+          Container(
+            width: double.infinity,
+            decoration: BoxDecoration(
+                border: Border(
+              left: BorderSide(),
+              right: BorderSide(),
+              bottom: BorderSide(),
+            )),
+            padding: EdgeInsets.only(left: 20, top: 10, bottom: 10),
+            child: Text(
+              'Barcelona Feb 13, 2021',
+            ),
+          )
         ],
       ),
     );

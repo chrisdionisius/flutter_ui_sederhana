@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:layout_widget/date.dart';
 import 'package:layout_widget/news.dart';
 
 void main() {
@@ -58,9 +57,7 @@ class MyApp extends StatelessWidget {
             child: const Center(child: Text('Transfer')),
           ),
           news(),
-          date(),
           news(),
-          date(),
         ],
       ),
     ));
